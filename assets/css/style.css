@@ -37,9 +37,17 @@ a {
     text-decoration: none;
     padding: 0px 20px 0px 20px
 }
+/* Header Complete*/
+
+main {
+    background-color:rgb(208, 230, 230);
+}
+.about-me {
+    width: 100%;
+}
+
 .industry-focus h2 {
     font-size: 30px;
-    margin-left: 20px;
 }
 .marbles h2 {
     font-size: 30px;
@@ -69,36 +77,30 @@ p {
     margin-left: 25px;
 }
 
-main {
-    background-color:rgb(208, 230, 230);
-}
-.content {
-    width: 100%;
-    height: auto;
-    background-color:rgb(208, 230, 230);
-}
 
+
+}
 .projects {
     display: flex;
-
-
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .industry-focus{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 .marbles {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 .routine {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 .study-guide{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 
 /*Add Footer design*/
