@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: inline-flexbox;
+    background-color:rgb(248, 245, 241)
+}
+
+/*Make body Headers line-up Vertically (flex-direction)*/
+.header {
+    flex: auto;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(43, 151, 240);
+    color: aliceblue;
+    width: 100%;
+
+}
+
+.title {
+    display: inline-block;
+    flex-direction:row;
+    font-size: 54px;
+    padding-left: 20px;
+    flex: 2;
+}
+
+.catalog {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin-right: 20px;
+    font-size: 24px;
+    margin-top: 30px;
+    flex: 3;
+}
+
+.catalog{
+    position: relative;
+    text-align: right;
+    display: inline-block;
+}
+a {
+    color:aliceblue;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px
+}
+
+p {
+    font-size: 16px;
+    flex-align:center;
+}
+/*Add special affects for Body Headers*/ 
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    background-color:rgb(208, 230, 230);
+}
+.projects {
+    background-color:rgb(208, 230, 230);
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.left-column{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    float: left;
+}
+.right-column{
+    display:flex;
+    flex-direction: column;
+    flex-direction:
+    width: 50%;
+}
+.industry-focus{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.marbles {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.routine {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.study-guide{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Add Footer design*/
+
+.footer {
+    padding:0%
+    font-family:0%
+    text-align:
+}
+
+.footer h2 {
+    font-size:
+}
