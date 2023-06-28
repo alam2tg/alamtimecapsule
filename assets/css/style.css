@@ -42,9 +42,25 @@ a {
 main {
     background-color:rgb(208, 230, 230);
 }
+
+.content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+
+}
 .about-me {
     width: 100%;
+    Height: 300px;
+    background-color: yellow;
 }
+.about-me h2 {
+    font-size: 36px;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 .industry-focus h2 {
     font-size: 30px;
@@ -78,12 +94,6 @@ p {
 }
 
 
-
-}
-.projects {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .industry-focus{
