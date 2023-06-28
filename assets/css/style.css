@@ -4,7 +4,6 @@
 }
 
 body {
-    display: inline-flexbox;
     background-color:rgb(248, 245, 241)
 }
 
@@ -61,24 +60,25 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+}
 .industry-focus h2 {
     font-size: 30px;
 }
 .marbles h2 {
     font-size: 30px;
-    margin-left: 20px;
+
 }
 .routine h2 {
     font-size: 30px;
-    margin-left: 20px;
+
 }
 .study-guide h2 {
     font-size: 30px;
-    margin-left: 20px;
+
 }
+
 p {
-    font-size: 16px;
+    font-size: 24px;
     flex-align:center;
 }
 /*Add special affects for Body Headers*/ 
@@ -91,9 +91,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-
 }
 
 .industry-focus{
