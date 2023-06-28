@@ -15,6 +15,7 @@ body {
     background-color:rgb(43, 151, 240);
     color: aliceblue;
     width: 100%;
+    border-radius:20px;
 }
 
 .title {
@@ -41,20 +42,25 @@ a {
 
 main {
     background-color:rgb(208, 230, 230);
+    border-radius:20px;
 }
 
 .content {
     justify-content:left;
 }
+.title-me{
+    font-size: 36px;
+    margin-top:-40px;
+}
 .about-me {
     width: 100%;
     Height: 300px;
     background-color: yellow;
+    border-radius: 20px;   
+
 }
-.about-me h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
+/* Add Hero w/ Phoebe*/
+
 .projects {
     display: flex;
     width: 100%;
@@ -82,24 +88,32 @@ main {
 }
 
 .industry-focus{
-    width: 50%;
+    width: 45%;
     height: 400px;
     background-color: violet;
+    border-radius: 20px;    
+    margin: 1.5%;
 }
 .marbles {
-    width: 50%;
+    width: 45%;
     height: 400px;
     background-color: aliceblue;
+    border-radius: 20px;     
+    margin: 1.5%;  
 }
 .routine {
-    width: 50%;
+    width: 45%;
     height: 400px;
     background-color: lightgreen;
+    border-radius: 20px;   
+    margin: 1.5%;
 }
 .study-guide{
-    width: 50%;
+    width: 45%;
     height: 400px;
     background-color: lightcoral;
+    border-radius: 20px;   
+    margin: 1.5%;
 }
 
 
