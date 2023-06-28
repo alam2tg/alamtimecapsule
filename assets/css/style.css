@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding: 1%;
+    margin: 0;
 }
 
 body {
@@ -43,10 +44,7 @@ main {
 }
 
 .content {
-    display:flex;
-    flex-wrap: wrap;
     justify-content:left;
-
 }
 .about-me {
     width: 100%;
@@ -55,11 +53,18 @@ main {
 }
 .about-me h2 {
     font-size: 36px;
+    margin-bottom: 20px;
 }
 .projects {
     display: flex;
+    width: 100%;
+    height: auto;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.projects h2{
+    font-size: 36px;
+    width:100%;
 }
 .industry-focus h2 {
     font-size: 30px;
@@ -74,8 +79,29 @@ main {
 }
 .study-guide h2 {
     font-size: 30px;
-
 }
+
+.industry-focus{
+    width: 50%;
+    height: 400px;
+    background-color: violet;
+}
+.marbles {
+    width: 50%;
+    height: 400px;
+    background-color: aliceblue;
+}
+.routine {
+    width: 50%;
+    height: 400px;
+    background-color: lightgreen;
+}
+.study-guide{
+    width: 50%;
+    height: 400px;
+    background-color: lightcoral;
+}
+
 
 p {
     font-size: 24px;
@@ -83,32 +109,7 @@ p {
 }
 /*Add special affects for Body Headers*/ 
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.industry-focus{
-    width: 400px;
-    height: 400px;
-}
-.marbles {
-    width: 400px;
-    height: 400px;
-}
-.routine {
-    width: 400px;
-    height: 400px;
-}
-.study-guide{
-    width: 400px;
-    height: 400px;
-}
 
 /*Add Footer design*/
 
