@@ -96,42 +96,44 @@ main {
 
 .projects {
     display: flex;
+    flex-wrap:wrap;
     width: 100%;
     height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 .projects h2{
     font-size: 36px;
     width:100%;
 }
-.industry-focus h2 {
-    font-size: 30px;
-}
+
+
+
 .marbles h2 {
     font-size: 30px;
-
 }
-.routine h2 {
-    font-size: 30px;
 
-}
 .study-guide h2 {
     font-size: 30px;
 }
 
 .industry-focus{
+    height: 40vh;
+    flex-grow:1;
     width: 45%;
-    height: 400px;
     background-color: rgb(238, 165, 238);
     border-radius: 20px;    
     margin: 1.5%;
     text-align:center;
 }
 
-.industry-focus img{
-    height:250px;
-    border-radius:20px;
+.industry-focus h2 {
+    font-size: 30px;
+}
+
+.industry-focus h2 img{
+    max-height:100%;
+    min-width:100%;
+    object-fit:cover;
+    vertical-align:bottom;
 }
 
 .industry-focus:hover {
@@ -139,16 +141,18 @@ main {
 }
 
 .marbles {
-    width: 45%;
-    height: 400px;
+    height: 40vh;
+    flex-grow:1;
     background-color: aliceblue;
     border-radius: 20px;     
     margin: 1.5%;
     text-align:center;
 }
-.marbles img{
-
-    height:250px;
+.marbles h2 img{
+    max-height:100%;
+    min-width:100%;
+    object-fit:cover;
+    vertical-align:bottom;
     border-radius:20px;
 }
 
@@ -157,16 +161,24 @@ main {
 }
 
 .routine {
-    width: 45%;
-    height: 400px;
+    height: 40vh;
+    flex-grow:1;
     background-color: lightgreen;
     border-radius: 20px;   
     margin: 1.5%;
     text-align:center;
+    border-radius:20px;
 }
 
-.routine img{
-    height:250px;
+.routine h2 {
+    font-size: 30px;
+}
+
+.routine h2 img{
+    max-height:100%;
+    min-width:100%;
+    object-fit:cover;
+    vertical-align:bottom;
     border-radius:20px;
 }
 
@@ -175,15 +187,24 @@ main {
 }
 
 .study-guide{
+    height: 40vh;
+    flex-grow:1;
     width: 45%;
-    height: 400px;
     background-color: lightcoral;
     border-radius: 20px;   
     margin: 1.5%;
     text-align:center;
 }
-.study-guide img{
-    height:250px;
+
+.study-guide h2{
+    font-size: 30px;
+}
+
+.study-guide h2 img{
+    max-height:100%;
+    min: width 100%;
+    object-fit:cover;
+    vertical-align:bottom;
     border-radius:20px;
 }
 
@@ -195,14 +216,10 @@ main {
     font-size: 24px;
     flex-direction:center;
 }
-/*Add special affects for Body Headers*/ 
-
-
-
-/*Add Footer design*/
 
 .footer {
-    display: inline-flex;
+    display: flex;
+    flex-wrap:wrap;
     padding-right: 30px;
     width:100%;
 }
