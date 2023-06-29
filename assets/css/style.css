@@ -60,13 +60,11 @@ body {
 main {
     background-color:rgb(208, 230, 230);
     border-radius:20px;
-    font-family:sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
 }
 .content {
     display:flex;
-    flex:wrap;
-    max-width:800px;
-    flex-direction:row;
+    flex:wrap;  
 }
 
 .hero {
@@ -74,26 +72,27 @@ main {
     background-image:url('/assets/images/me-and-my-dog-2.jpg');
     background-size:cover;
     border-radius:20px;
-    margin-left: 30px;
-    min-width:750px;
-    max-width:750px;
+    width:100%;
+    min-width:600px;
+    margin-left:20px;
 }
 
 
 .about-me{
     font-size: 36px;
-    width:100%;
 }
 .about {
-    width: 100%;
-    min-width: 800px;
-    Height: 300px;
+    width:100%;
+    Height: 500px;
     background-color: rgb(248, 248, 63);
     border-radius: 20px;
+    margin-right: 20px;
 }
 
 .about p {    
-    font-size:24px;
+    font-size:30px;
+    min-width: 500px;
+    
 }
 
 /* Add Hero w/ Phoebe*/
@@ -130,33 +129,57 @@ main {
     background-color: violet;
     border-radius: 20px;    
     margin: 1.5%;
+    text-align:center;
 }
+
+.industry-focus img{
+    height:250px;
+    border-radius:20px;
+}
+
 .marbles {
     width: 45%;
     height: 400px;
     background-color: aliceblue;
     border-radius: 20px;     
-    margin: 1.5%;  
+    margin: 1.5%;
+    text-align:center;
 }
+.marbles img{
+    height:250px;
+    border-radius:20px;
+}
+
 .routine {
     width: 45%;
     height: 400px;
     background-color: lightgreen;
     border-radius: 20px;   
     margin: 1.5%;
+    text-align:center;
 }
+
+.routine img{
+    height:250px;
+    border-radius:20px;
+}
+
 .study-guide{
     width: 45%;
     height: 400px;
     background-color: lightcoral;
     border-radius: 20px;   
     margin: 1.5%;
+    text-align:center;
+}
+.study-guide img{
+    height:250px;
+    border-radius:20px;
 }
 
-
-p {
+.projects p {
     font-size: 24px;
-    flex-align:center;
+    flex-direction:center;
 }
 /*Add special affects for Body Headers*/ 
 
@@ -165,11 +188,18 @@ p {
 /*Add Footer design*/
 
 .footer {
-    border-radius: 20px; 
+    display: inline-flex;
+    padding-right: 30px;
+    width:100%;
 }
 
-.contact{
+.footer h2{
     font-size:36px;
-    width:100%;
-    
+    margin:20px;
 }
+
+.footer a{
+    margin:30px;
+    font-size:24px;
+}
+
