@@ -12,7 +12,7 @@ body {
 /*Make body Headers line-up Vertically (flex-direction)*/
 .header {
     display: inline-block;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
     background-color:rgb(43, 151, 240);
     color: aliceblue;
     width: 100%;
@@ -60,20 +60,36 @@ body {
 main {
     background-color:rgb(208, 230, 230);
     border-radius:20px;
+    font-family:sans-serif
+}
+.content {
+    display:flex;
+    flex:wrap;
+    max-width:800px;
+    flex-direction:row;
 }
 
-.content {
-    justify-content:left;
+.hero {
+    height: 500px;
+    background-image:url('/assets/images/me-and-my-dog-2.jpg');
+    background-size:cover;
+    border-radius:20px;
+    margin-left: 30px;
+    min-width:750px;
+    max-width:750px;
 }
+
+
 .about-me{
     font-size: 36px;
-    margin-top:-40px;
+    width:100%;
 }
 .about {
     width: 100%;
+    min-width: 800px;
     Height: 300px;
     background-color: rgb(248, 248, 63);
-    border-radius: 20px;  
+    border-radius: 20px;
 }
 
 .about p {    
@@ -155,4 +171,5 @@ p {
 .contact{
     font-size:36px;
     width:100%;
+    
 }
