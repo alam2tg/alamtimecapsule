@@ -61,6 +61,7 @@ main {
     background-color:rgb(208, 230, 230);
     border-radius:20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular';
+    border: solid black 2px;
 }
 .content {
     display:flex;
@@ -73,17 +74,20 @@ main {
     height:500px;
     width:100%;
     margin-bottom:20px;
+    border: solid black 2px;
 }
 
 
 .about-me{
     font-size: 36px;
+    
 }
 .about {
     width:100%;
     background-color: rgb(241, 241, 128);
     border-radius: 20px;
     margin-right: 20px;
+    border: solid black 2px;
 }
 
 .about p {    
@@ -227,6 +231,9 @@ main {
     background-color:rgb(207, 56, 56)
 }
 
+p {
+    font-size:24px;
+}
 
 .footer {
     display: flex;
