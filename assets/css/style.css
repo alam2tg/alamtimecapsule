@@ -112,6 +112,7 @@ main {
 }
 
 .img {
+    display:flexbox;
     border-radius:20px;
 }
 
@@ -140,7 +141,8 @@ main {
 
 .fuel-locator {
     height: 40vh;
-    min-width:40%;
+    min-width:30%;
+    min-height:max-content;
     background-color: rgb(217, 240, 164);
     border-radius: 20px;    
     margin: 1.5%;
