@@ -68,7 +68,6 @@ main {
 }
 
 .hero {
-    display:flex;
     background-size:cover;
     border-radius:20px;
     height:500px;
@@ -95,22 +94,17 @@ main {
 
 .projects {
     display: flex;
+    flex-direction:row;
     flex-wrap:wrap;
     width: 100%;
-    height: auto;
 }
-.projects h2{
+#projects-header {
     font-size: 36px;
     width:100%;
 }
 
 .projects-card {
     border: solid black 2px;
-    width:fit-content;
-}
-
-.marbles h2 {
-    font-size: 30px;
 }
 
 .img {
@@ -119,8 +113,7 @@ main {
 
 .industry-focus {
     height: 40vh;
-    flex-grow:1;
-    width: 45%;
+    min-width:50%;
     background-color: rgb(238, 165, 238);
     border-radius: 20px;    
     margin: 1.5%;
@@ -128,36 +121,56 @@ main {
 }
 
 .industry-focus h2 {
-    font-size: 30px;
+    font-size:30px;
 }
 
-.industry-focus h2 img{
-    max-height:100%;
-    min-width:100%;
+.industry-focus img{
     object-fit:cover;
     vertical-align:bottom;
+    
 }
 
 .industry-focus:hover {
     background-color:violet;
 }
 
-.marbles {
+.fuel-locator {
     height: 40vh;
-    flex-grow:1;
-    background-color: aliceblue;
-    border-radius: 20px;     
+    min-width:40%;
+    background-color: rgb(217, 240, 164);
+    border-radius: 20px;    
     margin: 1.5%;
     text-align:center;
 }
 
-marbles h2{
+.fuel-locator:hover {
+    background-color:rgb(217, 228, 120)
+}
+
+.fuel-locator h2 {
+    font-size: 30px;
+}
+
+.fuel-locator img{
+    object-fit:cover;
+    vertical-align:bottom;
+    border-radius:20px;
+}
+
+.marbles {
+    height: 40vh;
+    background-color: aliceblue;
+    border-radius: 20px;     
+    margin: 1.5%;
+    text-align:center;
+    min-width:30%;
+}
+
+.marbles h2{
     font-size:30px;
 }
 
-.marbles h2 a img{
-    max-height:100%;
-    min-width:100%;
+.marbles img{
     object-fit:cover;
     vertical-align:bottom;
     border-radius:20px;
@@ -169,13 +182,12 @@ marbles h2{
 
 .routine {
     height: 40vh;
-    flex-grow:1;
-    width:45%;
     background-color: lightgreen;
     border-radius: 20px;   
     margin: 1.5%;
     text-align:center;
     border-radius:20px;
+    min-width:30%;
 }
 
 .routine h2 {
@@ -183,8 +195,6 @@ marbles h2{
 }
 
 .routine h2 img{
-    max-height:100%;
-    min-width:100%;
     object-fit:cover;
     vertical-align:bottom;
     border-radius:20px;
@@ -196,21 +206,18 @@ marbles h2{
 
 .study-guide{
     height: 40vh;
-    flex-grow:1;
-    width: 45%;
     background-color: lightcoral;
     border-radius: 20px;   
     margin: 1.5%;
     text-align:center;
+    min-width:30%;
 }
 
 .study-guide h2{
     font-size: 30px;
 }
 
-.study-guide h2 img{
-    max-height:100%;
-    min-width: 100%;
+.study-guide h2 img {
     object-fit:cover;
     vertical-align:bottom;
     border-radius:20px;
@@ -220,30 +227,6 @@ marbles h2{
     background-color:rgb(207, 56, 56)
 }
 
-.fuel-locator {
-    height: 40vh;
-    flex-grow:1;
-    width: 45%;
-    background-color: rgb(217, 240, 164);
-    border-radius: 20px;    
-    margin: 1.5%;
-    text-align:center;
-}
-
-.fuel-locator:hover {
-    background-color:rgb(217, 228, 120)
-}
-
-.fuel-locator img{
-    object-fit:cover;
-    vertical-align:bottom;
-    border-radius:20px;
-}
-
-.projects p {
-    font-size: 24px;
-    flex-direction:center;
-}
 
 .footer {
     display: flex;
