@@ -104,13 +104,12 @@ main {
     width:100%;
 }
 
-
-
-.marbles h2 {
-    font-size: 30px;
+.projects-card {
+    border: solid black 2px;
+    width:fit-content;
 }
 
-.study-guide h2 {
+.marbles h2 {
     font-size: 30px;
 }
 
@@ -121,7 +120,7 @@ main {
 .industry-focus {
     height: 40vh;
     flex-grow:1;
-    width: 55%;
+    width: 45%;
     background-color: rgb(238, 165, 238);
     border-radius: 20px;    
     margin: 1.5%;
@@ -211,7 +210,7 @@ marbles h2{
 
 .study-guide h2 img{
     max-height:100%;
-    min: width 100%;
+    min-width: 100%;
     object-fit:cover;
     vertical-align:bottom;
     border-radius:20px;
@@ -219,6 +218,26 @@ marbles h2{
 
 .study-guide:hover {
     background-color:rgb(207, 56, 56)
+}
+
+.fuel-locator {
+    height: 40vh;
+    flex-grow:1;
+    width: 45%;
+    background-color: rgb(217, 240, 164);
+    border-radius: 20px;    
+    margin: 1.5%;
+    text-align:center;
+}
+
+.fuel-locator:hover {
+    background-color:rgb(217, 228, 120)
+}
+
+.fuel-locator img{
+    object-fit:cover;
+    vertical-align:bottom;
+    border-radius:20px;
 }
 
 .projects p {
