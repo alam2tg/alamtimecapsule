@@ -27,3 +27,6 @@ Making this website taught me the technical skills of designing a website, while
 ## Credits
 Chris Coyier's - "A Complete Guide to Flexbox"
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## Badges
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
