@@ -62,26 +62,27 @@ main {
 
 .about-me-container{
     display:flex;
-
+    flex-direction:row;
+    margin:20px;
     background-color: rgb(241, 241, 128);
     border-radius: 20px;
-
     border: solid black 2px;
-    font-size:28px;
-    width:100%;
+    width:95%;
 }
 
 .about-text {
     width:50%;
-    font-size: 48px;
+    font-size: 32px;
 }
 
 .about-text-content {
     font-size:30px;
 }
 .doggy {
-    width:800px;
+    max-height:600px;
+    max-width:100%;
     border-radius:20px;
+    
 }
 
 .projects {
