@@ -2,14 +2,12 @@
     box-sizing:border-box;
     padding: 1%;
     margin: 0;
-    
 }
 
 body {
     background-color:rgb(248, 245, 241)
 }
 
-/*Make body Headers line-up Vertically (flex-direction)*/
 .header {
     display: inline-block;
     font-family:'Lucida Sans', 'Lucida Sans Regular';
@@ -17,6 +15,7 @@ body {
     color: aliceblue;
     width: 100%;
     border-radius:20px;
+
 }
 
 .title {
@@ -54,47 +53,36 @@ body {
     width: 100%;
 }
 
-
-/* Header Complete*/
-
 main {
     background-color:rgb(208, 230, 230);
     border-radius:20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular';
     border: solid black 2px;
 }
-.content {
+
+.about-me-container{
     display:flex;
-    flex-flow:row nowrap;
-}
 
-.hero {
-    background-size:cover;
-    border-radius:20px;
-    height:500px;
-    width:100%;
-    margin-bottom:20px;
-    border: solid black 2px;
-}
-
-
-.about-me{
-    font-size: 36px;
-    
-}
-.about {
-    width:100%;
     background-color: rgb(241, 241, 128);
     border-radius: 20px;
-    margin-right: 20px;
+
     border: solid black 2px;
-}
-
-.about p {    
     font-size:28px;
+    width:100%;
 }
 
-/* Add Hero w/ Phoebe*/
+.about-text {
+    width:50%;
+    font-size: 48px;
+}
+
+.about-text-content {
+    font-size:30px;
+}
+.doggy {
+    width:800px;
+    border-radius:20px;
+}
 
 .projects {
     display: flex;
