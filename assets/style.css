@@ -89,7 +89,7 @@ main {
     flex-direction:row;
     flex-wrap:wrap;
     width: 100%;
-    border-radius:20px;
+
 }
 #projects-header {
     font-size: 36px;
@@ -98,6 +98,7 @@ main {
 
 .projects-card {
     border: solid black 2px;
+    border-radius:20px;
 }
 
 .img {
@@ -108,7 +109,7 @@ main {
 
 .industry-focus {
     height: 40vh;
-    min-width:50%;
+    width:95%;
     background-color: rgb(238, 165, 238);  
     margin: 1.5%;
     text-align:center;
@@ -118,23 +119,17 @@ main {
     font-size:30px;
 }
 
-.industry-focus img{
-    object-fit:cover;
-    vertical-align:bottom;
-    
-}
-
 .industry-focus:hover {
     background-color:violet;
 }
 
 .fuel-locator {
     height: 40vh;
-    background-color: rgb(217, 240, 164);
-    border-radius: 20px;    
+    background-color: rgb(217, 240, 164); 
     margin: 1.5%;
     text-align:center;
     font-size:30px;
+    width:45%;
 }
 
 .fuel-locator:hover {
@@ -147,6 +142,7 @@ main {
     margin: 1.5%;
     text-align:center;
     font-size:30px;
+    width:45%;
 }
 
 .marbles:hover {
@@ -155,14 +151,12 @@ main {
 
 .routine {
     height: 40vh;
-    background-color: lightgreen;
-    border-radius: 20px;   
+    background-color: lightgreen; 
     margin: 1.5%;
     text-align:center;
     font-size: 30px;
+    width:45%;
 }
-
-
 
 .routine:hover {
     background-color: rgb(38, 202, 38);
@@ -171,10 +165,10 @@ main {
 .study-guide{
     height: 40vh;
     background-color: lightcoral;
-    border-radius: 20px;   
     margin: 1.5%;
     text-align:center;
     font-size: 30px;
+    width:45%;
 }
 
 .study-guide:hover {
